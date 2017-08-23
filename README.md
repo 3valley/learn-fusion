@@ -9,10 +9,10 @@ The Estes Valley Library's very own Fusion 360 tutorial
 We have three axes and three planes to work with. Sketches are created on a flat plane, so now's the time to choose how you want to think about your model. Are you going to start top-down, from the front, from the side?
 
 For this first example, we are going to start from the top, as if we are looking down on our die.
-- Click the orange square between the blue and red axes (the X-Y plane)
 
 ### Start sketching
 - From the `Sketch` menu, choose `Rectangle > Center Point Rectangle`
+- Choose the plane by clicking the orange square between the blue and red axes (the X-Y plane)
 - When you see the crosshairs, **click once** to place the center of the rectangle. 
 
 There are two ways to choose the size of the rectangle.

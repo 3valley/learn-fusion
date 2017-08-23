@@ -72,6 +72,7 @@ Let's continue keeping things neat by creating a new component. Click the radio 
 - Choose `Sketch > Trim`, then hover over to highlight and click to remove the extra line between the rectangle and the roof.
 - Choose `Create > Extrude`. Rotate view cube if needed, then either pull the handle or enter the parameter. <kbd>OK</kbd> or <kbd>Enter</kbd> to apply.
 
+### Home improvement
 Now, I want to add a chimney. The logical place would be on one side of this roof, but I’ll show you what happens if I do that. Instead, I want to sketch the chimney on the flat bottom of the house, and extrude it through the roof.
 - Choose `Sketch > Circle > Center Point Circle` OR `Sketch > Rectangle > Center Point Rectangle`, then click and drag or type the parameter.
 - Choose `Create > Extrude`, select your chimney shape and extrude it through the roof. Rotate the `view cube` as needed to see it better and then pull the handle. 
@@ -83,7 +84,7 @@ Now, let’s add a tiny bit of character to the chimney.
 - Chooose `Sketch > Offset`, click to select the face on top of the chimney, then click the line around the edge of the chimney. Pull inward or enter a negative value in the parameter field. <kbd>OK</kbd> or <kbd>Enter</kbd> to apply.
 - Choose `Create > Extrude`. Select the new offset shape we just made and pull the handle down to hollow out the chimney.
 
-### Now, on your own, add 1 more feature to the house:
+### On your own, add 1 more feature to the house:
 -	Rotate your view using the `view cube`
 -	Choose `Create > Sketch` and click on a planar face
 -	Using the `Sketch` tools of your choice, sketch something on that planar face. Front steps? Door? Window? Up to you.
@@ -98,11 +99,27 @@ Create a new component. Click the radio button next to the top level item in the
 - Whatever you drew, make sure you place a `Sketch > Line` down the middle of the drawing to cut everything in half. This piece is going to have rotational symmetry and that line will be the axis that we rotate around.
 - Use Sketch > Trim to remove stray lines.
 
-### Revoling your shape
+### Revolving your shape
 - Choose `Create > Revolve`
 -	Select the shape you created. The Revolve pane will show “Profile: 1 selected”
 -	In the Revolve pane, click on the <kbd>Select</kbd> button next to the `Axis` setting, then click the edge of your shape, the one that you want to be the center.
 -	Leave the rest of the settings how they are and click <kbd>OK</kbd>.
+
+## Open lab
+We will use the rest of our time for an open lab. Create your own game piece using the tools you've learned today.
+
+- Don't forget to create a new component for your unique game piece. Click the radio button next to the top level item in the `Browser` to activate it, then choose `Create > New Component` and name it something descriptive
+
+## Ready to print
+We'll stop 20 minutes before the end of this class so everyone can submit a finished model for printing.
+
+### Submit your file for printing
+- Activate the component that contains your favorite model by clicking on the radio button next to its name in the browser
+- Choose `Make > 3D Print`
+- Click on your model to select it
+- In the `3D Print` pane, **uncheck** the option `Send to 3D Print Utility`
+- Name your file "yourname_color". My two available colors for this class are orange and light blue.
+- [Click here]((https://goo.gl/GxVFjc) to open my Dropbox Request for File Submissions and submit your STL file.
 
 
 

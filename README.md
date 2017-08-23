@@ -24,7 +24,7 @@ Let’s make a perfect square. You choose the size. Use <kbd>Command-Z</kbd> to 
 Now, we officially enter the 3D realm. Choose `Create > Extrude`
 A floating Extrude **pane** showing the tool options will appear. **Click** your square to select.
 
-Now, rotate the view cube slightly so you can get a better look, and you’ll see your square has a nice blue arrow-handle sticking out. **Drag** to pull up on the handle *or* type to add the parameter. Hit <kbd>Enter</kbd> or the OK button on the Extrude pane to apply the extrude.
+Now, rotate the view cube slightly so you can get a better look, and you’ll see your square has a nice blue arrow-handle sticking out. **Drag** to pull up on the handle *or* type to add the parameter. Hit <kbd>Enter</kbd> or the <kbd>OK</kbd> button on the Extrude pane to apply the extrude.
 
 We *could* stop there, because we’ve created a printable 3D object- but I assume you want to keep going.
 
@@ -37,7 +37,7 @@ Choose either:
 
 then *click and drag* a selection window around the entire cube to select all of its edges. Notice the you get both a blue handle :arrow_up: you can drag or a parameter box for typing the dimension.
 
-Try them both- just click cancel to leave the tool without applying the change. Try some of those crazy options even if you don’t know what they’re for. I certainly don’t. Take a second to evaluate the options and then click OK or hit <kbd>Enter</kbd> when you’ve got one you like.
+Try them both- just click <kbd>cancel</kbd> to leave the tool without applying the change. Try some of those crazy options even if you don’t know what they’re for. I certainly don’t. Take a second to evaluate the options and then click <kbd>OK</kbd> or hit <kbd>Enter</kbd> when you’ve got one you like.
 
 Rotate the `view cube` a little to admire your edge treatment, because it’s about to get really wild.
 
@@ -54,12 +54,62 @@ After selecting the face, **click once** to place the center of the sphere, then
 
 Use the view cube to move the view so another face is visible.  This time, **right-click** on the face.
 
-A circular `context menu` will appear around your cursor. Choose `Repeat Sphere` from this menu, click once to place the center of the sphere, and use <kbd>Enter</kbd> or OK to cut.
+A circular `context menu` will appear around your cursor. Choose `Repeat Sphere` from this menu, click once to place the center of the sphere, and use <kbd>Enter</kbd> or <kbd>OK</kbd> to cut.
 
 ## Now, finish the last four faces:
 -	Rotate your view using the `view cube`
 -	**Right-click** on faces to display the `context menu`, then choose `Repeat Sphere`
--	**Click once** to place the center of the sphere and use <kbd>Enter</kbd> or OK to cut.
+-	**Click once** to place the center of the sphere and use <kbd>Enter</kbd> or <kbd>OK</kbd> to cut.
+
+## Our second project: a Monopoly-style house
+Let's continue keeping things neat by creating a new component. Click the radio button next to the top level item in the `Browser` to activate it, then choose `Create > New Component` and name it "monopoly house"
+
+- Rotate the `view cube` so the Front face is visible
+- Choose `Sketch > Rectangle > 2-point Rectangle`
+- Click to place one corner, then move and click to place the other.
+- Choose `Sketch > Line` to draw a roof across the top of the rectangle
+- Choose `Sketch > Trim`, then hover over to highlight and click to remove the extra line between the rectangle and the roof.
+- Choose `Create > Extrude`. Rotate view cube if needed, then either pull the handle or enter the parameter. <kbd>OK</kbd> or <kbd>Enter</kbd> to apply.
+
+Now, I want to add a chimney. The logical place would be on one side of this roof, but I’ll show you what happens if I do that. Instead, I want to sketch the chimney on the flat bottom of the house, and extrude it through the roof.
+
+- Choose `Sketch > Circle > Center Point Circle` OR `Sketch > Rectangle > Center Point Rectangle`, then click and drag or type the parameter.
+- Choose `Create > Extrude`, select your chimney shape and extrude it through the roof. Rotate the `view cube` as needed to see it better and then pull the handle. 
+
+Notice that like the spheres on the die, it’s red. Because it intersects the house body, Fusion chooses the `Cut` operation by default. In the Extrude plane, change the `Operation` to `Join` and click OK.
+
+Now, let’s add a tiny bit of character to the chimney.
+- Chooose `Sketch > Offset`, click to select the face on top of the chimney, then click the line around the edge of the chimney. Pull inward or enter a negative value in the parameter field. <kbd>OK</kbd> or <kbd>Enter</kbd> to apply.
+- Choose `Create > Extrude`. Select the new offset shape we just made and pull the handle down to hollow out the chimney.
+
+###Now, on your own, add 1 more feature to the house:
+-	Rotate your view using the `view cube`
+-	Choose `Create > Sketch` and click on a planar face
+-	Using the `Sketch` tools of your choice, sketch something on that planar face. Front steps? Door? Window? Up to you.
+-	Use `Sketch > Offset` and `Create > Extrude` to make the feature 3D.
+
+## Last trick: Rotational-symmetry game piece
+Create a new component. Click the radio button next to the top level item in the `Browser` to activate it, then choose `Create > New Component` and name it "pawn" (or anything you want)
+
+- Rotate the `view cube` so the Front face is visible
+- Using the `Create > Sketch` tools, click to select the front pane and begin drawing a shape of your choosing. This one uses Center Point Circle, 2-Point Rectangle, and 3-Point Arc.
+- Whatever you drew, make sure you place a `Sketch > Line` down the middle of the drawing to cut everything in half. This piece is going to have rotational symmetry and that line will be the axis that we rotate around.
+- Use Sketch > Trim to remove stray lines.
+
+### Revoling your shape
+- Choose `Create > Revolve`
+-	Select the shape you created. The Revolve pane will show “Profile: 1 selected”
+-	In the Revolve pane, click on the <kbd>Select</kbd> button next to the `Axis` setting, then click the edge of your shape, the one that you want to be the center.
+-	Leave the rest of the settings how they are and click <kbd>OK</kbd>.
+
+
+
+
+
+
+
+
+
 
 
 

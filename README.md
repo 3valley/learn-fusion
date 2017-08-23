@@ -1,6 +1,8 @@
 # learn-fusion
 The Estes Valley Library's very own Fusion 360 tutorial
 
+![Alt text](http://estesvalleylibrary.org/github/fusion360_facebook.jpg "Optional title")
+
 ## Our first project: making a die
 - In Fusion's top bar menu, choose the paper icon `File` menu and then `Save`. Name your document "game pieces".  
 - To keep everything neat, choose `Create > New Component` and name it "die"

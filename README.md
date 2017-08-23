@@ -3,8 +3,20 @@ The Estes Valley Library's very own Fusion 360 tutorial
 
 ![Alt text](http://estesvalleylibrary.org/github/fusion360_facebook.jpg "Optional title")
 
+## The interface
+Fusion has a pretty sleek and simple interface, all things considered. We are going to interact with three main areas:
+
+The viewport, where we create our design. The most important part of the viewport is the `view cube` in the upper right.
+![Alt text](http://estesvalleylibrary.org/github/view.jpg "Optional title")
+
+The menu, where we will use the tools underneath the `Sketch`, `Create`, `Modify`, and `Make` buttons
+![Alt text](http://estesvalleylibrary.org/github/main_menu.jpg "Optional title")
+
+And the browser, which lets us keep track of the multiple designs we'll work on today. The top level of the browser and its activate/deactivate radio button is highlighted in pink- we'll need that later. 
+<img src="http://estesvalleylibrary.org/github/browser.jpg" width="300px">
+
 ## Our first project: making a die
-- In Fusion's top bar menu, choose the paper icon `File` menu and then `Save`. Name your document "game pieces".  
+- In Fusion's top bar menu, choose the :page_facing_up: `File` menu and then `Save`. Name your document "game pieces".  
 - To keep everything neat, choose `Create > New Component` and name it "die"
 
 ### Selecting the plane
@@ -21,12 +33,17 @@ There are two ways to choose the size of the rectangle.
 - *By dragging:* Move the cursor away from the center point, then **click** to place the rectangle.
 - *By entering parameters:* Your rectangle will have two floating fields- the parameters for the sides. Begin typing (no need to select anything) to fill in the first field, then use <kbd>Tab</kbd> to move to the second field.
 
+<img src="http://estesvalleylibrary.org/github/parameters.jpg" width="450px">
+
 Let’s make a perfect square. You choose the size. Use <kbd>Command-Z</kbd> to undo if you don’t like your square.
 
 ### Entering the third dimension
 Now, we officially enter the 3D realm. 
 - Choose `Create > Extrude`
-- A floating Extrude **pane** showing the tool options will appear. **Click** your square to select.
+- A floating Extrude **pane** showing the tool options will appear. 
+<img src="http://estesvalleylibrary.org/github/extrudepane.jpg" width="250px">
+
+- **Click** your square to select.
 
 Now, rotate the view cube slightly so you can get a better look, and you’ll see your square has a nice blue arrow-handle sticking out. 
 -**Drag** to pull up on the handle *or* type to add the parameter. 
@@ -51,6 +68,7 @@ Rotate the `view cube` a little to admire your edge treatment, because it’s ab
 First, we sketched on a plane- the first square we drew. Now, we are going to work on the *planar faces* of the die, one face at a time, The thing I think the faces need is some dots.
 - Choose `Create > Sphere`
 - Hover your cursor over a face of the die until you see the edges of the face turn *light*. You’ll also see an inviting golden-yellow square representing the plane, but don't click that- we want to select the face.
+<img src="http://estesvalleylibrary.org/github/face-v-plane.jpg" width="400px">
 - After selecting the face, **click once** to place the center of the sphere, then type a parameter for the sphere's diameter.
 
 *Notice something different?* The sphere is red because it intersects with the face of the die and Fusion selects the Cut operation automatically. That's just fine, since we want to scoop a half-sphere out. Hit <kbd>Enter</kbd> or the OK button.
@@ -98,8 +116,11 @@ Create a new component. Click the radio button next to the top level item in the
 ## Creating the profile of the game piece
 - Rotate the `view cube` so the Front face is visible
 - Using the `Create > Sketch` tools, click to select the front pane and begin drawing a shape of your choosing. This one uses Center Point Circle, 2-Point Rectangle, and 3-Point Arc.
+<img src="http://estesvalleylibrary.org/github/myprofile1.jpg" width="250px">
 - Whatever you drew, make sure you place a `Sketch > Line` down the middle of the drawing to cut everything in half. This piece is going to have rotational symmetry and that line will be the axis that we rotate around.
 - Use Sketch > Trim to remove stray lines.
+<img src="http://estesvalleylibrary.org/github/myprofile.jpg" width="250px">
+
 
 ### Revolving your shape
 - Choose `Create > Revolve`
@@ -121,6 +142,7 @@ We'll stop 20 minutes before the end of this class so everyone can submit a fini
 - Click on your model to select it
 - In the `3D Print` pane, **uncheck** the option `Send to 3D Print Utility`
 - Name your file "yourname_color". My two available colors for this class are orange and light blue.
+![Alt text](http://estesvalleylibrary.org/github/save_file.jpg "Optional title")
 - [Click here](https://www.dropbox.com/request/6pVTEzamWMmDhWL3Ms0H) to open my Dropbox Request for File Submissions and submit your STL file.
 
 

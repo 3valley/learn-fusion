@@ -119,7 +119,7 @@ We'll stop 20 minutes before the end of this class so everyone can submit a fini
 - Click on your model to select it
 - In the `3D Print` pane, **uncheck** the option `Send to 3D Print Utility`
 - Name your file "yourname_color". My two available colors for this class are orange and light blue.
-- [Click here]((https://goo.gl/GxVFjc) to open my Dropbox Request for File Submissions and submit your STL file.
+- [Click here](https://goo.gl/GxVFjc) to open my Dropbox Request for File Submissions and submit your STL file.
 
 
 

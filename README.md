@@ -15,6 +15,11 @@ The menu, where we will use the tools underneath the `Sketch`, `Create`, `Modify
 And the browser, which lets us keep track of the multiple designs we'll work on today. The top level of the browser and its activate/deactivate radio button is highlighted in pink- we'll need that later. 
 <img src="http://estesvalleylibrary.org/github/browser.jpg" width="300px">
 
+You will also want to know 3 mouse/keyboard controls:
+- Scroll with scroll wheel to zoom
+- Click and hold the scroll wheel and drag with the mouse to pan
+- Hold <KBD>Shift</kbd> and click and hold the scroll wheel and drag with the mouse to orbit
+
 ## Our first project: making a die
 - In Fusion's top bar menu, choose the :page_facing_up: `File` menu and then `Save`. Name your document "game pieces".  
 - To keep everything neat, choose `Create > New Component` and name it "die"

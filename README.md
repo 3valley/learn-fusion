@@ -1,7 +1,7 @@
 # learn-fusion
 The Estes Valley Library's very own Fusion 360 tutorial
 
-[Fusion 360 client download](http://estesvalleylibrary.org/github/fusion_client.dmg)
+[Download Fusion 360 client software here](https://www.autodesk.com/products/fusion-360/free-trial)
 
 ![Alt text](http://estesvalleylibrary.org/github/fusion360_facebook.jpg "Optional title")
 

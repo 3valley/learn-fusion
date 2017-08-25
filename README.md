@@ -153,7 +153,8 @@ We'll stop 20 minutes before the end of this class so everyone can submit a fini
 - [Click here](https://www.dropbox.com/request/6pVTEzamWMmDhWL3Ms0H) to open my Dropbox Request for File Submissions and submit your STL file.
 
 
-
+## Questions?
+[acavis@estesvalleylibrary.org](mailto:acavis@estesvalleylibrary.org)
 
 
 
